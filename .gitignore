@@ -6,7 +6,7 @@ yarn-error.log
 # Dependency directories
 /.pnp
 .pnp.js
-
+.next
 # Testing
 /coverage
 

@@ -1,0 +1,25 @@
+.container{
+    background-color: red;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 30px 0px ;
+    border-radius: 5px;
+}
+
+.titulo {
+    color: #fff ;
+}
+
+.container p {
+    font-weight: bold;
+}
+
+.nav {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: blue;
+    color: white;
+}
