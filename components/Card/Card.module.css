@@ -2,6 +2,19 @@
 
 .container {
     font-family: "Montserrat", sans-serif;
-    background-color: bisque;
+    background-color: blue;
     margin: 15px 0px;
+    color: white;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.esquerda{
+padding-right: 30px;
+}
+
+.direita{
+
 }
