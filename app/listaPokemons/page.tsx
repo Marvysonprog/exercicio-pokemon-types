@@ -5,6 +5,7 @@ import Card from "../../components/Card/Card";
 import { Pokemon } from "../../src/db/pokemons";
 import styles from "./page.module.css";
 import Header from "../../components/Header/Header";
+import Link from "next/link";
 
 export default function ListaPokemons() {
   const [dados, setDados] = useState<Pokemon[]>([]);
@@ -20,12 +21,14 @@ export default function ListaPokemons() {
     <>
       <Header titulo="Lista de Pokemons" subtitulo1="Confira aqui todos os pokemons disponíveis"/>
       {dados.map((pokemon) => {
+      
         return <Card
-          key={pokemon.id}
+          id={pokemon.id}
           nome={pokemon.name}
           tipo={pokemon.types}
           fraqueza={pokemon.weaknesses.map((item) => { return item + " " })}
-          imagem={pokemon.image}
+          imagem = {pokemon.image}
+          
         />;
       })}
     </>
